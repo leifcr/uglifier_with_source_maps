@@ -36,7 +36,11 @@ config.assets.js_compressor = :uglifier_with_source_maps
 If you need to pass options to uglifier:
 
 ```
-config.assets.js_compressor = UglifierWithSourceMaps::Compressor.new({output: {beautify: true, indent_level: 2, comments: :none}})
+config.assets.js_compressor = UglifierWithSourceMaps::Compressor.new({
+  output: {
+    beautify: true, indent_level: 2, comments: :none
+    }
+  })
 ```
 
 Your assets will be built as normal, and maps concatenated sources will be provided as well in asset\_path/maps and asset\_path/sources
