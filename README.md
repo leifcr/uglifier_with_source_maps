@@ -4,12 +4,7 @@ Create sourcemaps when compressing assets in your Rails 3.2 applications.
 
 This gem uses Uglifier to create sourcemaps for your concatenated javascripts in Rails 3.2.x. It is meant to use as a replacement javascript compressor.
 
-Dependencies:
-uglifier    >= 2.5
-sprockets   ~> 2.2.2
-actionpack  ~> 3.2.19
-
-Note: This gem is for Rails 3.2.x only as of now.
+_Note: This gem is for Rails 3.2.x_
 
 ## Installation
 
@@ -57,6 +52,11 @@ rake assets:precompile
 # -> public/assets/sources/application-ab258eecc169e5febb9da42389481bff.js
 
 ```
+
+## Dependencies
+* uglifier    >= 2.5
+* sprockets   ~> 2.2.2
+* actionpack  ~> 3.2.19
 
 ## Contributing
 
