@@ -6,6 +6,8 @@ This gem uses Uglifier to create sourcemaps for your concatenated javascripts in
 
 _Note: This gem is for Rails 3.2.x_
 
+For Rails 4.2 see: https://github.com/AlexanderPavlenko/sprockets_uglifier_with_source_maps
+
 ## Installation
 
 Add this line to your application's Gemfile:
